@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+	clear: both;
+}
+.logo{
+	float: left;
+	width: 20%;
+	height:25%
+}
+.headerText{
+	font-size: 22px;
+	float: left;
+	margin: 50px 0px;
+}
+.compNav{
+	clear:both;
+	overflow:auto;
+}
+.nav {
+	margin: 35px 0px;
+	float:right;
+	background-color: #333;
+}
+
+.nav a {
+	float: right;
+	text-align: center;
+	padding: 16px;
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 17px;
+}
+.color
+{
+	height: 70%;
+	width: 100%;
+	border: 1px-solid;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(sales.png);
+	position: relative;
+}
+.sales{
+	margin: 7% 0% 0% 0%;
+}
+.hmd
+{
+	background-position:center;
+	height: 30%;
+	width: 600px;
+	background-color: white;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+.card {
+	float: left;
+	margin: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	text-align: center;
+	font-family: arial;
+}
+.card img{
+	width:65%; 
+	height:35%
+}
+.items{
+	margin: 0px 20%;
+	padding: 10px 30px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
